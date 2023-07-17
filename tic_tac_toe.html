@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tak Toe Game For Fun</title>
+    <link rel="stylesheet" href="tic_tac_toe.css">
+</head>
+
+<body>
+    <nav>
+<ul class="ul-1">
+    <li class="list">HOME</li>
+    <li class="list">ABOUT</li>
+    <li class="list">CONTACT</li>
+</ul>
+    </nav>
+    <div class="gameContainer">
+        <div class="p1">
+            <h1 id="Welcome">Welcome To Tic Tac Toe Game  Anmol vs Arya</h1>
+            <div class="SideBox">
+                <span id="info">Turn for X</span>
+                <button id="reset">Reset</button>
+              </div>
+        </div>
+        <div class="subgameContainer" >
+            <div>
+                <h2>Score Of Player-X</h2>
+                <div id="ScoreContainer1" >
+                 0
+                </div>
+                <div class="imgbox">
+                    <img src="image\excited.gif" alt="" id="image1"/>
+                  </div>
+            </div>
+            <div class="boxes">
+                <div class="line"></div>
+                <div class="Boxes-1 bl-0 bt-0" id="id-01"> <span class="boxtext" id="box0"></span></div>
+                <div class="Boxes-1 bt-0" id="id-02"> <span class="boxtext"  id="box1"></span></div>
+                <div class="Boxes-1 bt-0 br" id="id-03"> <span class="boxtext" id="box2"></span></div>
+                <div class="Boxes-1 bl-0" id="id-04"> <span class="boxtext" id="box3"></span></div>
+                <div class="Boxes-1 " id="id-05"> <span class="boxtext" id="box4"></span></div>
+                <div class="Boxes-1 br" id="id-06"> <span class="boxtext" id="box5"></span></div>
+                <div class="Boxes-1 bl-0 bb" id="id-07"> <span class="boxtext" id="box6"></span></div>
+                <div class="Boxes-1 bb" id="id-08"> <span class="boxtext" id="box7"></span></div>
+                <div class="Boxes-1 br bb" id="id-09"> <span class="boxtext" id="box8"></span></div>
+            </div>
+            <div class="SideBox">
+                <h2>Score Of Player-O</h2>
+                <div id="ScoreContainer2">
+                    0
+                </div>
+                <div class="imgbox">
+                    <img src="image\excited.gif" alt="ImageOgbear" id="image2" />
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="tic_tac_toe.js"></script>
+</body>
+
+</html>
